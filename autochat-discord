@@ -4,24 +4,82 @@ from datetime import datetime
 
 # ====================== KONFIGURASI (EDIT DI SINI) ======================
 # 1. Token akun Discord kamu (self-bot)
-TOKEN = "token_akun_kamu_disini"
+TOKEN = "OTE2NjYwNDM4OTU0MDE2ODQ4.GGWtfg.3SeJZw6AI6XMH0XWlOgl5UiofiFF7pF6D7UCus"
 
 # 2. Daftar Channel ID
 CHANNEL_IDS = [
-    "123456789012345678",  # Channel 1
-    "123456789012345679",  # Channel 2
-    "123456789012345680",  # Channel 3
-    "123456789012345681",  # Channel 4
-    "123456789012345682",  # Channel 5
+"1509607878368035068",
+"1509607893572255865",
+"1509607914489381025",
+"1509607927885860997",
+"1509607947700011202",
+"",
+"",
+"",
 ]
 
 # 3. Daftar Pesan (urutan sesuai channel di atas)
 PESAN_LIST = [
-    "Pesan khusus untuk channel 1",
-    "Pesan khusus untuk channel 2",
-    "Pesan khusus untuk channel 3",
-    "Pesan khusus untuk channel 4",
-    "Pesan khusus untuk channel 5",
+"""Sell Cheap  Food At :join1:  FOODUHT :catto3: 
+
+Sell Arroz Con Pollo, Sell Egg Benedict, Sell Trawlerman's Friend, Sell Berry Creppes, Sell Beer Bettered Fish and Chips, Sell BBQ Bacon, Sell Apple Strudel, Sell Sweet Potato Tots, Sell Hot Chocolate, Sell Skill Spice
+
+Not in vend = Sold
+
+Sell Cheap Food At :join1:  FOODUHT :catto3:""",
+"""Sell Ingredients At :join1:  FOODUHT :catto3: 
+
+Sell Milk, Sell Tomato, Sell Rice, Sell Apple, Sell Blueberry, Sell Bacon, Sell Onion, Sell Egg, Sell Flour, Sell Salt, Sell All Recipe 
+
+Sell Ingredients At :join1:  FOODUHT :catto3:""",
+"""Sell Home Oven At :join1:  FOODUHT :catto3:""",
+"""Sell  Jammer At :join1:  LIBOW :Excellent: 
+
+Sell Signal Jammer
+Sell Punch Jammer
+Sell FireHouse
+Sell Ghost Charm
+Sell Security Camera
+
+Sell Jammer At :join1:  LIBOW :Excellent:""",
+"""Sell Door Go :join1:  LIBOW :OrganicTurkeyFeather: 
+
+Sell Screen Door
+Sell Gateway To Adventure
+Sell Air vent
+Sell Forcefield
+Sell Portcullis
+Sell Dragon Gate
+Sell Guild Entrance - Normal
+Sell Blue Portal
+Sell Time-Space Rupture
+Sell Hellgate 
+
+Sell Door Go :join1:  LIBOW :OrganicTurkeyFeather:""",
+"""Sell Cheap Platform Go :join1:  LIBOW :FishLandingPlatform: 
+
+Sell Starship Deck Ladders
+Sell Fire Escape
+Sell Wooden Platform
+Sell Seagull
+Sell Display Shelf
+
+Sell Cheap Platform Go :join1:  LIBOW :FishLandingPlatform:""",
+"""Sell Cheap Signs Go :join1:  LIBOW :RadiationSign: 
+
+Sell Guestbook
+Sell MailBox
+Sell Tavern Sign
+Sell Western Banner
+
+Sell Cheap Signs Go :join1:  LIBOW :RadiationSign:""",
+"""Sell Cheap Adventure Items Go :join1:  LIBOW :Excellent: 
+
+Sell Adventure Begins
+Sell Adventure's End
+Sell Adventure Rope Piton
+
+Sell Cheap Adventure Items Go :join1:  LIBOW :Excellent:""",
 ]
 
 # 4. Pengaturan Waktu (dalam detik)
@@ -29,7 +87,7 @@ DELAY_ANTAR_CHANNEL = 1.5      # Jeda antar pengiriman (detik)
 INTERVAL_LOOP = 10800          # 3 jam (10800 detik), bisa diubah langsung
 
 # 5. Webhook notifikasi (opsional, kosongkan "" jika tidak ingin)
-WEBHOOK_URL = "https://discord.com/api/webhooks/xxxxx/yyyyy"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1509604476942680175/O7s5FEn9daJcvuqLwcUHvWtpyrifun9_dfhuM7ZTVKJ-siQc607_xou2gzCwvcGamRYs"
 # =======================================================================
 
 def send_message(channel_id, message, token):
