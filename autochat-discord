@@ -84,7 +84,7 @@ Sell Cheap Adventure Items Go <:join1:1080231068508102766>  LIBOW <:Excellent:96
 
 # 4. Pengaturan Waktu (dalam detik)
 DELAY_ANTAR_CHANNEL = 5      # Jeda antar pengiriman (detik)
-INTERVAL_LOOP = 10810          # 3 jam (10800 detik), bisa diubah langsung
+INTERVAL_LOOP = 730          # 2 jam (720 detik), bisa diubah langsung
 
 # 5. Webhook notifikasi (opsional, kosongkan "" jika tidak ingin)
 WEBHOOK_URL = "https://discord.com/api/webhooks/1509604476942680175/O7s5FEn9daJcvuqLwcUHvWtpyrifun9_dfhuM7ZTVKJ-siQc607_xou2gzCwvcGamRYs"
