@@ -4,36 +4,36 @@ from datetime import datetime
 
 # ====================== KONFIGURASI (EDIT DI SINI) ======================
 # 1. Token akun Discord kamu (self-bot)
-TOKEN = "OTE2NjYwNDM4OTU0MDE2ODQ4.GGWtfg.3SeJZw6AI6XMH0XWlOgl5UiofiFF7pF6D7UCus"
+TOKEN = "OTE2NjYwNDM4OTU0MDE2ODQ4.G961jB.s39Wb1Z5QPITn4X73nFy51J8dDABsyNJfjL2Aw"
 
 # 2. Daftar Channel ID
 CHANNEL_IDS = [
-"1509607878368035068",
-"1509607893572255865",
-"1509607914489381025",
-"1509607927885860997",
-"1509607947700011202",
-"1510132585538519152",
-"1510132616815185981",
-"1510132645076406342",
+"737344235199660123",
+"737344491526029384",
+"737429783201447937",
+"806523338797219860",
+"846671811223355402",
+"846673193426354176",
+"846661246303469598",
+"900812336116416563",
 ]
 
 # 3. Daftar Pesan (urutan sesuai channel di atas)
 PESAN_LIST = [
-"""Sell Cheap  Food At :join1:  FOODUHT :catto3: 
+"""Sell Cheap  Food At <:join1:1080231068508102766>  FOODUHT <:catto3:947202972817977404> 
 
 Sell Arroz Con Pollo, Sell Egg Benedict, Sell Trawlerman's Friend, Sell Berry Creppes, Sell Beer Bettered Fish and Chips, Sell BBQ Bacon, Sell Apple Strudel, Sell Sweet Potato Tots, Sell Hot Chocolate, Sell Skill Spice
 
 Not in vend = Sold
 
-Sell Cheap Food At :join1:  FOODUHT :catto3:""",
-"""Sell Ingredients At :join1:  FOODUHT :catto3: 
+Sell Cheap Food At <:join1:1080231068508102766>  FOODUHT <:catto3:947202972817977404>""",
+"""Sell Ingredients At <:join1:1080231068508102766>  FOODUHT <:catto3:947202972817977404> 
 
 Sell Milk, Sell Tomato, Sell Rice, Sell Apple, Sell Blueberry, Sell Bacon, Sell Onion, Sell Egg, Sell Flour, Sell Salt, Sell All Recipe 
 
-Sell Ingredients At :join1:  FOODUHT :catto3:""",
-"""Sell Home Oven At :join1:  FOODUHT :catto3:""",
-"""Sell  Jammer At :join1:  LIBOW :Excellent: 
+Sell Ingredients At <:join1:1080231068508102766>  FOODUHT <:catto3:947202972817977404>""",
+"""Sell Home Oven At <:join1:1080231068508102766>  FOODUHT <:catto3:947202972817977404>""",
+"""Sell  Jammer At <:join1:1080231068508102766>  LIBOW <:Excellent:964672053624078407> 
 
 Sell Signal Jammer
 Sell Punch Jammer
@@ -41,8 +41,8 @@ Sell FireHouse
 Sell Ghost Charm
 Sell Security Camera
 
-Sell Jammer At :join1:  LIBOW :Excellent:""",
-"""Sell Door Go :join1:  LIBOW :OrganicTurkeyFeather: 
+Sell Jammer At <:join1:1080231068508102766>  LIBOW <:Excellent:964672053624078407>""",
+"""Sell Door Go <:join1:1080231068508102766>  LIBOW <:OrganicTurkeyFeather:1442976175243661434> 
 
 Sell Screen Door
 Sell Gateway To Adventure
@@ -55,8 +55,8 @@ Sell Blue Portal
 Sell Time-Space Rupture
 Sell Hellgate 
 
-Sell Door Go :join1:  LIBOW :OrganicTurkeyFeather:""",
-"""Sell Cheap Platform Go :join1:  LIBOW :FishLandingPlatform: 
+Sell Door Go <:join1:1080231068508102766>  LIBOW <:OrganicTurkeyFeather:1442976175243661434>""",
+"""Sell Cheap Platform Go <:join1:1080231068508102766>  LIBOW <:FishLandingPlatform:702646117057429586> 
 
 Sell Starship Deck Ladders
 Sell Fire Escape
@@ -64,26 +64,26 @@ Sell Wooden Platform
 Sell Seagull
 Sell Display Shelf
 
-Sell Cheap Platform Go :join1:  LIBOW :FishLandingPlatform:""",
-"""Sell Cheap Signs Go :join1:  LIBOW :RadiationSign: 
+Sell Cheap Platform Go <:join1:1080231068508102766>  LIBOW <:FishLandingPlatform:702646117057429586>""",
+"""Sell Cheap Signs Go <:join1:1080231068508102766>  LIBOW <:RadiationSign:702645184394952764> 
 
 Sell Guestbook
 Sell MailBox
 Sell Tavern Sign
 Sell Western Banner
 
-Sell Cheap Signs Go :join1:  LIBOW :RadiationSign:""",
-"""Sell Cheap Adventure Items Go :join1:  LIBOW :Excellent: 
+Sell Cheap Signs Go <:join1:1080231068508102766>  LIBOW <:RadiationSign:702645184394952764>""",
+"""Sell Cheap Adventure Items Go <:join1:1080231068508102766>  LIBOW <:Excellent:964672053624078407> 
 
 Sell Adventure Begins
 Sell Adventure's End
 Sell Adventure Rope Piton
 
-Sell Cheap Adventure Items Go :join1:  LIBOW :Excellent:""",
+Sell Cheap Adventure Items Go <:join1:1080231068508102766>  LIBOW <:Excellent:964672053624078407>""",
 ]
 
 # 4. Pengaturan Waktu (dalam detik)
-DELAY_ANTAR_CHANNEL = 3      # Jeda antar pengiriman (detik)
+DELAY_ANTAR_CHANNEL = 5      # Jeda antar pengiriman (detik)
 INTERVAL_LOOP = 10810          # 3 jam (10800 detik), bisa diubah langsung
 
 # 5. Webhook notifikasi (opsional, kosongkan "" jika tidak ingin)
