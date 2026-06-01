@@ -4,7 +4,7 @@ from datetime import datetime
 
 # ====================== KONFIGURASI (EDIT DI SINI) ======================
 # 1. Token akun Discord kamu (self-bot)
-TOKEN = ""
+TOKEN = "wevawebubagevu"
 
 # 2. Daftar Channel ID
 CHANNEL_IDS = [
