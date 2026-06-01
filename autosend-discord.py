@@ -11,11 +11,6 @@ CHANNEL_IDS = [
 "1",
 "2",
 "3",
-"4",
-"5",
-"6",
-"7",
-"8",
 ]
 
 # 3. Daftar Pesan (urutan sesuai channel di atas)
@@ -23,15 +18,10 @@ PESAN_LIST = [
 """1""",
 """2""",
 """3""",
-"""4""",
-"""5""",
-"""6""",
-"""7""",
-"""8""",
 ]
 
 # 4. Pengaturan Waktu (dalam detik)
-DELAY_ANTAR_CHANNEL = 15      # Jeda antar pengiriman (detik)
+DELAY_ANTAR_CHANNEL = 2      # Jeda antar pengiriman (detik)
 INTERVAL_LOOP = 7200          # 2 jam (720 detik), bisa diubah langsung
 
 # 5. Webhook notifikasi (opsional, kosongkan "" jika tidak ingin)
